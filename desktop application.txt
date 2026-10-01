@@ -1,0 +1,144 @@
+desktop application 
+**How to Run Smart File Organizer**
+
+1. Open **PowerShell**.
+
+2. Go to the project folder:
+
+```powershell
+cd "C:\xampp\htdocs\ITHUB_ALL\day_1\desktop_mobile_application"
+```
+
+3. Install requirements (**first time only**):
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+4. Run the application:
+
+```powershell
+python smart_file_organizer.py
+```
+
+### Next time
+
+You only need:
+
+```powershell
+cd "C:\xampp\htdocs\ITHUB_ALL\day_1\desktop_mobile_application"
+python smart_file_organizer.py
+```
+Slide 1 — Smart File Organizer
+
+Smart File Organizer
+A simple desktop application for organizing files automatically
+
+Python-based desktop application
+Helps users manage messy folders
+Automatically sorts files into categories
+Saves time and keeps files organized
+Slide 2 — The Problem
+Why do we need it?
+
+When we download or create many files, folders become messy:
+
+📄 Documents
+🖼️ Images
+🎵 Audio
+🎬 Videos
+📦 ZIP files
+💻 Programs and other files
+
+Finding a specific file can become difficult and time-consuming.
+
+Slide 3 — Our Solution
+Smart File Organizer
+
+The application automatically:
+
+Select Folder → Scan Files → Identify File Types → Create Categories → Move Files
+
+Instead of organizing files manually, the application does the basic organization automatically.
+
+Slide 4 — How It Works
+Simple Workflow
+User selects a folder.
+Application scans the files.
+It checks each file's extension.
+It identifies the file category.
+Required folders are created automatically.
+Files are moved into their respective folders.
+
+Example:
+
+photo.jpg → Images
+assignment.pdf → Documents
+song.mp3 → Audio
+movie.mp4 → Videos
+
+Slide 5 — Main Features
+What can it do?
+📁 Organize files automatically
+🔍 Scan selected folders
+🗂️ Categorize files by type
+⚡ Reduce manual work
+🖥️ Simple desktop interface
+📊 Show organization results
+🔄 Handle multiple files at once
+Slide 6 — Example
+Before
+Downloads
+│
+├── photo.jpg
+├── assignment.pdf
+├── song.mp3
+├── movie.mp4
+├── notes.docx
+└── presentation.pptx
+After
+Downloads
+│
+├── Images
+│   └── photo.jpg
+│
+├── Documents
+│   ├── assignment.pdf
+│   ├── notes.docx
+│   └── presentation.pptx
+│
+├── Audio
+│   └── song.mp3
+│
+└── Videos
+    └── movie.mp4
+Slide 7 — Technologies Used
+Technology Stack
+Python — Main programming language
+Python GUI libraries — Desktop interface
+OS/File handling — Access and organize files
+File extensions — Identify file types
+
+The application runs locally on the user's computer.
+
+Slide 8 — Benefits
+Why is it useful?
+Saves time
+Reduces manual file management
+Makes folders cleaner
+Makes files easier to find
+Useful for students, offices, and personal computers
+Slide 9 — Future Improvements
+What could we add?
+🤖 AI-based file classification
+🔎 Smart file search
+📅 Organize files by date
+🔄 Automatic background organization
+☁️ Cloud storage integration
+📈 File organization statistics
+Slide 10 — Conclusion
+Smart File Organizer
+
+A simple solution to a common problem.
+
+Less manual work → More organized files → More productivity

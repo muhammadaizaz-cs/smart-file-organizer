@@ -1,0 +1,7 @@
+# Smart File Organizer
+# Uses only Python's standard library (tkinter, pathlib, shutil, os).
+# No third-party packages are required.
+#
+# Python 3.8+ recommended.
+# On Windows, tkinter is included with the official Python installer.
+# Make sure "tcl/tk and IDLE" is checked during installation.
